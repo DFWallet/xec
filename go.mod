@@ -1,4 +1,4 @@
-module github.com/gcash/bchd
+module github.com/DFWallet/xec
 
 go 1.12
 
