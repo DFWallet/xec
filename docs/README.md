@@ -38,7 +38,7 @@ that communicates with your running bchd instance via the API.
 
 **2.1 Installation**
 
-The easiest way to run the server is to download a pre-built binary. You can find binaries of our latest release for each operating system at the [releases page](https://github.com/gcash/bchd/releases).
+The easiest way to run the server is to download a pre-built binary. You can find binaries of our latest release for each operating system at the [releases page](https://github.com/DFWallet/xec/releases).
 
 <a name="BuildingFromSource" />
 
@@ -52,7 +52,7 @@ If you prefer to install from source do the following:
 - Run the following commands to obtain bchd, all dependencies, and install it:
 
 ```bash
-$ go get github.com/gcash/bchd
+$ go get github.com/DFWallet/xec
 ```
 
 This will download and compile `bchd` and put it in your path.
@@ -61,7 +61,7 @@ This will download and compile `bchd` and put it in your path.
 
 **2.2 Configuration**
 
-bchd has a number of [configuration](http://godoc.org/github.com/gcash/bchd)
+bchd has a number of [configuration](http://godoc.org/github.com/DFWallet/xec)
 options, which can be viewed by running: `$ bchd --help`.
 
 <a name="BchctlConfig" />
@@ -146,17 +146,17 @@ configuration necessary, however, there is an optional method to use a
 
 **3.1.1 bootstrap.dat**
 
-* [Using bootstrap.dat](https://github.com/gcash/bchd/tree/master/docs/using_bootstrap_dat.md)
+* [Using bootstrap.dat](https://github.com/DFWallet/xec/tree/master/docs/using_bootstrap_dat.md)
 
 <a name="NetworkConfig" />
 
 **3.1.2 Network Configuration**
 
-* [What Ports Are Used by Default?](https://github.com/gcash/bchd/tree/master/docs/default_ports.md)
-* [How To Listen on Specific Interfaces](https://github.com/gcash/bchd/tree/master/docs/configure_peer_server_listen_interfaces.md)
-* [How To Configure RPC Server to Listen on Specific Interfaces](https://github.com/gcash/bchd/tree/master/docs/configure_rpc_server_listen_interfaces.md)
-* [Configuring bchd with Tor](https://github.com/gcash/bchd/tree/master/docs/configuring_tor.md)
-* [Configuring bchd with CIFS](https://github.com/gcash/bchd/tree/master/docs/cifs.md)
+* [What Ports Are Used by Default?](https://github.com/DFWallet/xec/tree/master/docs/default_ports.md)
+* [How To Listen on Specific Interfaces](https://github.com/DFWallet/xec/tree/master/docs/configure_peer_server_listen_interfaces.md)
+* [How To Configure RPC Server to Listen on Specific Interfaces](https://github.com/DFWallet/xec/tree/master/docs/configure_rpc_server_listen_interfaces.md)
+* [Configuring bchd with Tor](https://github.com/DFWallet/xec/tree/master/docs/configuring_tor.md)
+* [Configuring bchd with CIFS](https://github.com/DFWallet/xec/tree/master/docs/cifs.md)
 
 <a name="Wallet" />
 
@@ -172,42 +172,42 @@ information.
 
 <a name="ContributionGuidelines" />
 
-* [Code Contribution Guidelines](https://github.com/gcash/bchd/tree/master/docs/code_contribution_guidelines.md)
+* [Code Contribution Guidelines](https://github.com/DFWallet/xec/tree/master/docs/code_contribution_guidelines.md)
 
 <a name="JSONRPCReference" />
 
-* [JSON-RPC Reference](https://github.com/gcash/bchd/tree/master/docs/json_rpc_api.md)
-    * [RPC Examples](https://github.com/gcash/bchd/tree/master/docs/json_rpc_api.md#ExampleCode)
+* [JSON-RPC Reference](https://github.com/DFWallet/xec/tree/master/docs/json_rpc_api.md)
+    * [RPC Examples](https://github.com/DFWallet/xec/tree/master/docs/json_rpc_api.md#ExampleCode)
 
 <a name="GoPackages" />
 
 * The gcash Bitcoin Cash-related Go Packages:
-    * [pcclient](https://github.com/gcash/bchd/tree/master/rpcclient) - Implements a
+    * [pcclient](https://github.com/DFWallet/xec/tree/master/rpcclient) - Implements a
       robust and easy to use Websocket-enabled Bitcoin JSON-RPC client
-    * [btcjson](https://github.com/gcash/bchd/tree/master/btcjson) - Provides an extensive API
+    * [btcjson](https://github.com/DFWallet/xec/tree/master/btcjson) - Provides an extensive API
       for the underlying JSON-RPC command and return values
-    * [wire](https://github.com/gcash/bchd/tree/master/wire) - Implements the
+    * [wire](https://github.com/DFWallet/xec/tree/master/wire) - Implements the
       Bitcoin wire protocol
-    * [peer](https://github.com/gcash/bchd/tree/master/peer) -
+    * [peer](https://github.com/DFWallet/xec/tree/master/peer) -
       Provides a common base for creating and managing Bitcoin network peers.
-    * [blockchain](https://github.com/gcash/bchd/tree/master/blockchain) -
+    * [blockchain](https://github.com/DFWallet/xec/tree/master/blockchain) -
       Implements Bitcoin block handling and chain selection rules
-    * [blockchain/fullblocktests](https://github.com/gcash/bchd/tree/master/blockchain/fullblocktests) -
+    * [blockchain/fullblocktests](https://github.com/DFWallet/xec/tree/master/blockchain/fullblocktests) -
       Provides a set of block tests for testing the consensus validation rules
-    * [txscript](https://github.com/gcash/bchd/tree/master/txscript) -
+    * [txscript](https://github.com/DFWallet/xec/tree/master/txscript) -
       Implements the Bitcoin transaction scripting language
-    * [bchec](https://github.com/gcash/bchd/tree/master/bchec) - Implements
+    * [bchec](https://github.com/DFWallet/xec/tree/master/bchec) - Implements
       support for the elliptic curve cryptographic functions needed for the
       Bitcoin scripts
-    * [database](https://github.com/gcash/bchd/tree/master/database) -
+    * [database](https://github.com/DFWallet/xec/tree/master/database) -
       Provides a database interface for the Bitcoin block chain
-    * [mempool](https://github.com/gcash/bchd/tree/master/mempool) -
+    * [mempool](https://github.com/DFWallet/xec/tree/master/mempool) -
       Package mempool provides a policy-enforced pool of unmined bitcoin
       transactions.
-    * [bchutil](https://github.com/gcash/bchutil) - Provides Bitcoin-specific
+    * [bchutil](https://github.com/DFWallet/xecutil) - Provides Bitcoin-specific
       convenience functions and types
-    * [chainhash](https://github.com/gcash/bchd/tree/master/chaincfg/chainhash) -
+    * [chainhash](https://github.com/DFWallet/xec/tree/master/chaincfg/chainhash) -
       Provides a generic hash type and associated functions that allows the
       specific hash algorithm to be abstracted.
-    * [connmgr](https://github.com/gcash/bchd/tree/master/connmgr) -
+    * [connmgr](https://github.com/DFWallet/xec/tree/master/connmgr) -
       Package connmgr implements a generic Bitcoin network connection manager.

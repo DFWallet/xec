@@ -3,7 +3,7 @@ chaincfg
 
 [![Build Status](https://travis-ci.org/gcash/bchd.png?branch=master)](https://travis-ci.org/gcash/bchd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/gcash/bchd/chaincfg)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/DFWallet/xec/chaincfg)
 
 Package chaincfg defines chain configuration parameters for the three standard
 Bitcoin networks and provides the ability for callers to define their own custom
@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchd/chaincfg"
+	"github.com/DFWallet/xecutil"
+	"github.com/DFWallet/xec/chaincfg"
 )
 
 var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")
@@ -56,7 +56,7 @@ func main() {
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/gcash/bchd/chaincfg
+$ go get -u github.com/DFWallet/xec/chaincfg
 ```
 
 ## License

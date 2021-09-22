@@ -1074,7 +1074,7 @@ various languages.
 **9.1 Go**
 
 This section provides examples of using the RPC interface using Go and the
-[rpcclient](https://github.com/gcash/bchd/rpcclient) package.
+[rpcclient](https://github.com/DFWallet/xec/rpcclient) package.
 
 * [Using getblockcount to Retrieve the Current Block Height](#ExampleGetBlockCount)
 * [Using getblock to Retrieve the Genesis Block](#ExampleGetBlock)
@@ -1086,7 +1086,7 @@ This section provides examples of using the RPC interface using Go and the
 **9.1.1 Using getblockcount to Retrieve the Current Block Height**<br />
 
 The following is an example Go application which uses the
-[rpcclient](https://github.com/gcash/bchd/rpcclient) package to connect with
+[rpcclient](https://github.com/DFWallet/xec/rpcclient) package to connect with
 a bchd instance via Websockets, issues [getblockcount](#getblockcount) to
 retrieve the current block height, and displays it.
 
@@ -1094,8 +1094,8 @@ retrieve the current block height, and displays it.
 package main
 
 import (
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/rpcclient"
+	"github.com/DFWallet/xecutil"
 	"io/ioutil"
 	"log"
 	"path/filepath"
@@ -1147,7 +1147,7 @@ Block count: 276978
 **9.1.2 Using getblock to Retrieve the Genesis Block**<br />
 
 The following is an example Go application which uses the
-[rpcclient](https://github.com/gcash/bchd/rpcclient) package to connect with
+[rpcclient](https://github.com/DFWallet/xec/rpcclient) package to connect with
 a bchd instance via Websockets, issues [getblock](#getblock) to retrieve
 information about the Genesis block, and display a few details about it.
 
@@ -1155,10 +1155,10 @@ information about the Genesis block, and display a few details about it.
 package main
 
 import (
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/rpcclient"
+	"github.com/DFWallet/xecutil"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 	"io/ioutil"
 	"log"
 	"path/filepath"
@@ -1237,7 +1237,7 @@ Num transactions: 1
 Notifications (Websocket-specific)**<br />
 
 The following is an example Go application which uses the
-[rpcclient](https://github.com/gcash/bchd/rpcclient) package to connect with
+[rpcclient](https://github.com/DFWallet/xec/rpcclient) package to connect with
 a bchd instance via Websockets and registers for
 [blockconnected](#blockconnected) and [blockdisconnected](#blockdisconnected)
 notifications with [notifyblocks](#notifyblocks).  It also sets up handlers for
@@ -1247,10 +1247,10 @@ the notifications.
 package main
 
 import (
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/rpcclient"
+	"github.com/DFWallet/xecutil"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 	"io/ioutil"
 	"log"
 	"path/filepath"

@@ -21,18 +21,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gcash/bchd/mining"
+	"github.com/DFWallet/xec/mining"
 
 	"github.com/btcsuite/go-socks/socks"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/connmgr"
-	"github.com/gcash/bchd/database"
-	_ "github.com/gcash/bchd/database/ffldb"
-	"github.com/gcash/bchd/mempool"
-	"github.com/gcash/bchd/peer"
-	"github.com/gcash/bchd/version"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/connmgr"
+	"github.com/DFWallet/xec/database"
+	_ "github.com/DFWallet/xec/database/ffldb"
+	"github.com/DFWallet/xec/mempool"
+	"github.com/DFWallet/xec/peer"
+	"github.com/DFWallet/xec/version"
+	"github.com/DFWallet/xecutil"
 
 	flags "github.com/jessevdk/go-flags"
 )

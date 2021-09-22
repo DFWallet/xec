@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
 )
 
 // RejectCode represents a numeric value by which a remote peer indicates

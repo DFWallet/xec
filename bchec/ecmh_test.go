@@ -3,7 +3,7 @@ package bchec
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
 	"testing"
 )
 

@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/gcash/bchd/btcjson"
+	"github.com/DFWallet/xec/btcjson"
 )
 
 // This example demonstrates how to create and marshal a command into a JSON-RPC

@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/bluele/gcache"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xecutil"
 )
 
 // SlpCache to manage slp index mempool inventory and recently queried slp index entries and

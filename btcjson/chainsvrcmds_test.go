@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gcash/bchd/btcjson"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/btcjson"
+	"github.com/DFWallet/xec/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

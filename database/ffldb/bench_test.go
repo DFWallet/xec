@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xecutil"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

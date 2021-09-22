@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gcash/bchd/btcjson"
+	"github.com/DFWallet/xec/btcjson"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 )
 
 const (

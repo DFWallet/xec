@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/integration/rpctest"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/integration/rpctest"
 )
 
 const (

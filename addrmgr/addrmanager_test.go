@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gcash/bchd/addrmgr"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/addrmgr"
+	"github.com/DFWallet/xec/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

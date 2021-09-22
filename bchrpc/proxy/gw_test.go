@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gcash/bchd/bchrpc/pb"
+	"github.com/DFWallet/xec/bchrpc/pb"
 	"github.com/golang/glog"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 )

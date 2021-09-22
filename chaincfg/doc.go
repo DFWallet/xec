@@ -25,8 +25,8 @@
 //          "fmt"
 //          "log"
 //
-//          "github.com/gcash/bchutil"
-//          "github.com/gcash/bchd/chaincfg"
+//          "github.com/DFWallet/xecutil"
+//          "github.com/DFWallet/xec/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

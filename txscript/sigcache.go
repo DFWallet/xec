@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/DFWallet/xec/bchec"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

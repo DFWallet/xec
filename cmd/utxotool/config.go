@@ -9,11 +9,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/database"
-	_ "github.com/gcash/bchd/database/ffldb"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/database"
+	_ "github.com/DFWallet/xec/database/ffldb"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

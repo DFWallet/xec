@@ -13,14 +13,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/mempool"
-	peerpkg "github.com/gcash/bchd/peer"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xec/mempool"
+	peerpkg "github.com/DFWallet/xec/peer"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 )
 
 const (

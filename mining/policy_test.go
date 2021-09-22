@@ -8,10 +8,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 )
 
 const MockMaxOutputsPerBlock = 32000000 / wire.MinTxOutPayload

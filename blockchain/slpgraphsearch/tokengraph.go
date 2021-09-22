@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 )
 
 // tokenGraph manages slp token graphs for graph search and TODO: recently queried items

@@ -9,4 +9,4 @@ bchd --datadir=/mnt
 
 For more information about why async preemption needs to be disabled,
 check out the following GitHub issue:
-https://github.com/gcash/bchd/issues/367
+https://github.com/DFWallet/xec/issues/367

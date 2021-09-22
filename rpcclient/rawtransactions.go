@@ -13,7 +13,7 @@ import (
 	"github.com/DFWallet/xec/btcjson"
 	"github.com/DFWallet/xec/chaincfg/chainhash"
 	"github.com/DFWallet/xec/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xecutil"
 )
 
 // SigHashType enumerates the available signature hashing types that the

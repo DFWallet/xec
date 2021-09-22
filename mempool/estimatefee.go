@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/mining"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/mining"
+	"github.com/DFWallet/xecutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

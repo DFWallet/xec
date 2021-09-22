@@ -7,9 +7,9 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xecutil"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

@@ -3,7 +3,7 @@ package wire
 import (
 	"bytes"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
 	"reflect"
 	"testing"
 )

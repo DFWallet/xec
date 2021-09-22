@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/database/ffldb"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xec/database/ffldb"
+	"github.com/DFWallet/xecutil"
 )
 
 // dbType is the database type name for this driver.

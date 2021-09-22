@@ -3,10 +3,10 @@
 FROM node:14.16.0-slim
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/gcash/bchd
+ADD . /go/src/github.com/DFWallet/xec
 
 # Switch to the correct working directory.
-WORKDIR /go/src/github.com/gcash/bchd/bchrpc/regtest
+WORKDIR /go/src/github.com/DFWallet/xec/bchrpc/regtest
 
 # Create the data volume.
 VOLUME ["/data"]

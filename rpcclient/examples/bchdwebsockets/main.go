@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/rpcclient"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 )
 
 func main() {

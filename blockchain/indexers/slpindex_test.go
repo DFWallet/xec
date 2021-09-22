@@ -13,9 +13,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gcash/bchd/blockchain/indexers"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/blockchain/indexers"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 	"github.com/simpleledgerinc/goslp"
 	"github.com/simpleledgerinc/goslp/v1parser"
 )

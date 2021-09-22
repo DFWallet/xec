@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gcash/bchd/database"
-	_ "github.com/gcash/bchd/database/ffldb"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/database"
+	_ "github.com/DFWallet/xec/database/ffldb"
+	"github.com/DFWallet/xec/wire"
 )
 
 // fixedExcessiveBlockSize should not be the default -we want to ensure it will work in all cases

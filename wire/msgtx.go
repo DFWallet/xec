@@ -10,7 +10,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
 )
 
 const (

@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchutil"
+	rpc "github.com/DFWallet/xec/rpcclient"
+	"github.com/DFWallet/xecutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a bchd process

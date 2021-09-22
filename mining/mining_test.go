@@ -6,13 +6,13 @@ package mining
 
 import (
 	"container/heap"
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/txscript"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/txscript"
 	"math/rand"
 	"testing"
 
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xecutil"
 )
 
 // TestTxFeePrioHeap ensures the priority queue for transaction fees and

@@ -3,11 +3,11 @@ package main
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/bchec"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xec/wire"
 	"io"
 )
 

@@ -7,8 +7,8 @@ package ffldb
 import (
 	"fmt"
 
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xec/wire"
 	"github.com/gcash/bchlog"
 )
 

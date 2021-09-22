@@ -94,12 +94,12 @@ import (
 	"fmt"
 	"path/filepath"
 
-	pb "github.com/gcash/bchd/bchrpc/pb"
+	pb "github.com/DFWallet/xec/bchrpc/pb"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xecutil"
 )
 
 var certificateFile = filepath.Join(bchutil.AppDataDir("bchd", false), "rpc.cert")
@@ -165,7 +165,7 @@ If connecting to a node using a self signed cert you will need to use:
 ```javascript
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 ```
-**More Examples**: [here](https://github.com/gcash/bchd/tree/master/bchrpc/documentation/client-usage-examples/nodejs-grpc)
+**More Examples**: [here](https://github.com/DFWallet/xec/tree/master/bchrpc/documentation/client-usage-examples/nodejs-grpc)
 
 ## Python
 

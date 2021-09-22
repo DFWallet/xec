@@ -4,12 +4,12 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/gcash/bchd/bchrpc/pb"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/bchrpc/pb"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/txscript"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 	"github.com/simpleledgerinc/goslp/v1parser"
 	"golang.org/x/crypto/ripemd160"
 )

@@ -16,9 +16,9 @@ import (
 
 	"hash"
 
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/bchec"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

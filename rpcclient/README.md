@@ -3,7 +3,7 @@ rpcclient
 
 [![Build Status](https://travis-ci.org/gcash/bchd.png?branch=master)](https://travis-ci.org/gcash/bchd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/gcash/bchd/rpcclient)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/DFWallet/xec/rpcclient)
 
 rpcclient implements a Websocket-enabled Bitcoin JSON-RPC client package written
 in [Go](http://golang.org/).  It provides a robust and easy to use client for
@@ -18,16 +18,16 @@ implement and the API is not stable yet.
 
 ## Documentation
 
-* [API Reference](http://godoc.org/github.com/gcash/bchd/rpcclient)
-* [bchd Websockets Example](https://github.com/gcash/bchd/tree/master/rpcclient/examples/bchdwebsockets)
+* [API Reference](http://godoc.org/github.com/DFWallet/xec/rpcclient)
+* [bchd Websockets Example](https://github.com/DFWallet/xec/tree/master/rpcclient/examples/bchdwebsockets)
   Connects to a bchd RPC server using TLS-secured websockets, registers for
   block connected and block disconnected notifications, and gets the current
   block count
-* [bchwallet Websockets Example](https://github.com/gcash/bchd/tree/master/rpcclient/examples/bchwalletwebsockets)
+* [bchwallet Websockets Example](https://github.com/DFWallet/xec/tree/master/rpcclient/examples/bchwalletwebsockets)
   Connects to a bchwallet RPC server using TLS-secured websockets, registers for
   notifications about changes to account balances, and gets a list of unspent
   transaction outputs (utxos) the wallet can sign
-* [Bitcoin Core HTTP POST Example](https://github.com/gcash/bchd/tree/master/rpcclient/examples/bitcoincorehttp)
+* [Bitcoin Core HTTP POST Example](https://github.com/DFWallet/xec/tree/master/rpcclient/examples/bitcoincorehttp)
   Connects to a bitcoin core RPC server using HTTP POST mode with TLS disabled
   and gets the current block count
 
@@ -47,7 +47,7 @@ implement and the API is not stable yet.
 ## Installation
 
 ```bash
-$ go get -u github.com/gcash/bchd/rpcclient
+$ go get -u github.com/DFWallet/xec/rpcclient
 ```
 
 ## License

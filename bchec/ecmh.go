@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
 )
 
 // Multiset tracks the state of a multiset as used to calculate the ECMH

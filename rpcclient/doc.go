@@ -9,7 +9,7 @@ Overview
 
 This client provides a robust and easy to use client for interfacing with a
 Bitcoin RPC server that uses a bchd/bitcoin core compatible Bitcoin JSON-RPC
-API.  This client has been tested with bchd (https://github.com/gcash/bchd),
+API.  This client has been tested with bchd (https://github.com/DFWallet/xec),
 bchwallet (https://github.com/gcash/bchwallet), and
 bitcoin core (https://github.com/bitcoin).
 

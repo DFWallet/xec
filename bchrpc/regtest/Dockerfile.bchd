@@ -6,10 +6,10 @@ RUN apt update \
     && apt install -y dnsutils
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/gcash/bchd
+ADD . /go/src/github.com/DFWallet/xec
 
 # Switch to the correct working directory.
-WORKDIR /go/src/github.com/gcash/bchd
+WORKDIR /go/src/github.com/DFWallet/xec
 
 # Build the code and the cli client.
 RUN go install .

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

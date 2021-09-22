@@ -3,14 +3,14 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xecutil"
 	"net/http"
 	"path/filepath"
 	"time"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 
-	"github.com/gcash/bchd/bchrpc/proxy/middlewares"
+	"github.com/DFWallet/xec/bchrpc/proxy/middlewares"
 
 	"github.com/golang/glog"
 	"github.com/gorilla/mux"
@@ -18,7 +18,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	gw "github.com/gcash/bchd/bchrpc/pb"
+	gw "github.com/DFWallet/xec/bchrpc/pb"
 )
 
 var (

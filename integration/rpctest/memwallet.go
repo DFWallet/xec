@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/rpcclient"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
-	"github.com/gcash/bchutil/hdkeychain"
+	"github.com/DFWallet/xec/bchec"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/rpcclient"
+	"github.com/DFWallet/xec/txscript"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
+	"github.com/DFWallet/xecutil/hdkeychain"
 )
 
 var (

@@ -18,15 +18,15 @@ import (
 
 	"github.com/dchest/siphash"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/blockchain/indexers"
-	"github.com/gcash/bchd/btcjson"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/mining"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/blockchain/indexers"
+	"github.com/DFWallet/xec/btcjson"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/mining"
+	"github.com/DFWallet/xec/txscript"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 )
 
 const (

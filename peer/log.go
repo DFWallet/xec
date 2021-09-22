@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/txscript"
+	"github.com/DFWallet/xec/wire"
 	"github.com/gcash/bchlog"
 )
 

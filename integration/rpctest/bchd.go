@@ -49,7 +49,7 @@ func bchdExecutablePath() (string, error) {
 	if runtime.GOOS == "windows" {
 		outputPath += ".exe"
 	}
-	cmd := exec.Command("go", "build", "-o", outputPath, "github.com/gcash/bchd")
+	cmd := exec.Command("go", "build", "-o", outputPath, "github.com/DFWallet/xec")
 	cmd.Stdout, cmd.Stderr = os.Stdout, os.Stderr
 	err = cmd.Run()
 	if err != nil {

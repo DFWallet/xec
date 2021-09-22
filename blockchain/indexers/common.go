@@ -11,10 +11,10 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/database"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/database"
+	"github.com/DFWallet/xecutil"
 )
 
 var (

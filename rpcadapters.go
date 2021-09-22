@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/gcash/bchd/blockchain"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/mempool"
-	"github.com/gcash/bchd/netsync"
-	"github.com/gcash/bchd/peer"
-	"github.com/gcash/bchd/wire"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/blockchain"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/mempool"
+	"github.com/DFWallet/xec/netsync"
+	"github.com/DFWallet/xec/peer"
+	"github.com/DFWallet/xec/wire"
+	"github.com/DFWallet/xecutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xecutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

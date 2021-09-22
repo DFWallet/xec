@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gcash/bchd/btcjson"
+	"github.com/DFWallet/xec/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

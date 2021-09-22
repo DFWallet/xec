@@ -13,9 +13,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gcash/bchd/btcjson"
-	"github.com/gcash/bchd/version"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/btcjson"
+	"github.com/DFWallet/xec/version"
+	"github.com/DFWallet/xecutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

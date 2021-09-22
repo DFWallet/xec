@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

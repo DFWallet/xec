@@ -8,8 +8,8 @@
 package database
 
 import (
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xecutil"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a

@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/gcash/bchd/btcjson"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/btcjson"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xecutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

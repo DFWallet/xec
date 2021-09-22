@@ -5,13 +5,13 @@
 package txscript
 
 import (
-	"github.com/gcash/bchd/bchec"
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/bchec"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xecutil"
 	"testing"
 
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/wire"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/wire"
 )
 
 // TestBadPC sets the pc to a deliberately bad result then confirms that Step()

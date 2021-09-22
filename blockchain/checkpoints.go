@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gcash/bchd/chaincfg"
-	"github.com/gcash/bchd/chaincfg/chainhash"
-	"github.com/gcash/bchd/txscript"
-	"github.com/gcash/bchutil"
+	"github.com/DFWallet/xec/chaincfg"
+	"github.com/DFWallet/xec/chaincfg/chainhash"
+	"github.com/DFWallet/xec/txscript"
+	"github.com/DFWallet/xecutil"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current
